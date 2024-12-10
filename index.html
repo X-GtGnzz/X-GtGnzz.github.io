@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan Modern</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* CSS */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #2e353b;
+      color: whitesmoke;
+    }
+
+    header {
+      background-color: #3a434b; /* Darker gray-blue for the header */
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      padding: 10px;
+    }
+
+    .category {
+      margin-bottom: 40px;
+    }
+
+    .category h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #007BFF;
+      text-align: center;
+    }
+
+    /* Mengubah tampilan buku menggunakan grid 2 kolom */
+    .book-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 kolom dengan ukuran yang sama */
+      gap: 12px;
+      padding: 10px 0;
+    }
+
+    .book-card {
+      background: #434d56;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .book-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .book-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .book-card .actions {
+      margin-top: 10px;
+    }
+
+    /* Styling untuk tombol visit yang sekarang adalah link */
+    .btn-visit {
+      display: inline-block;
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none; /* Menghilangkan garis bawah default link */
+      text-align: center;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn-visit:hover {
+      background: #0056b3;
+    }
+
+    /* Gaya untuk ikon */
+    .btn-visit i {
+      margin-right: 5px;
+    }
+
+    .book-card .actions .wishlist {
+      background: #FF6F61;
+    }
+
+    .book-card .actions .wishlist:hover {
+      background: #E54C3C;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #007BFF;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Project Dump</h1>
+  </header>
+  <main>
+    <!-- Kategori Buku -->
+    <div class="category">
+      <div class="book-list">
+        <div class="book-card">
+          <img src="project1.jpg" alt="Book Cover">
+          <h3>Write Me</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="https://via.placeholder.com/200x150" alt="Book Cover">
+          <h3>coming soon</h3>
+          <div class="actions">
+            <!-- Tombol Visit yang sudah diubah menjadi link -->
+            <a href="https://writeme.rf.gd/" class="btn-visit">
+              <i class="fas fa-globe"></i> Visit
+            </a>
+          </div>
+        </div>
+        <!-- Tambahkan lebih banyak card -->
+      </div>
+    </div>
+  </main>
+</body>
+</html>
